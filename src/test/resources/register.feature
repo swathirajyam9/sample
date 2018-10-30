@@ -13,3 +13,4 @@ Feature: Register
       | abcd@gmail.com           | Mr    | abcd       | xyz   | cb1234d   |
 
 
+#capcha cannot be automated
