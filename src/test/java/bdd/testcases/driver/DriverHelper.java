@@ -12,7 +12,6 @@ import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.PageFactory;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
@@ -69,12 +68,11 @@ public class DriverHelper {
         driver.get(url);
     }
 
-
-    public void maxBrowser(){
+     public void maxBrowser(){
         driver.manage().window().maximize();
     }
 
-    public void applyImpWait(){
+     public void applyImpWait(){
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
     }
 
